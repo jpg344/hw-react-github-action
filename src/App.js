@@ -17,6 +17,12 @@ function App() {
         >
           Learn React
         </a>
+        {/* Add Buttons Here */}
+        <div className="App-buttons">
+          <button onClick={() => alert('"Yes" clicked!')}>Yes</button>
+          <button onClick={() => alert('"No" clicked!')}>No</button>
+          <button onClick={() => alert('"Maybe" clicked!')}>Maybe</button>
+        </div>
       </header>
     </div>
   );
